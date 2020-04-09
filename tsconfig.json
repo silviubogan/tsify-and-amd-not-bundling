@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "js",
+        "target": "ES6",
+        "watch": true,
+        "allowJs": true,
+        "allowUmdGlobalAccess": true,
+        "lib": ["ES6", "DOM"],
+        "module": "UMD",
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "Node"
+    },
+    "include": [
+        "ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
